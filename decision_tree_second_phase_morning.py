@@ -51,6 +51,7 @@ def calculate_sugar(df, p, n):
     print("N:", ni3)
     print("IG Normal:", calculate_information_gain(pi3, ni3))
     
+    print(ent1, ent2, ent3)
     return round((ent1 + ent2 + ent3), 3)
 
 def calculate_milk(df, p, n):
@@ -80,6 +81,7 @@ def calculate_milk(df, p, n):
     print("N:", ni2)
     print("IG FALSE:", calculate_information_gain(pi2, ni2))
 
+    print(ent1, ent2)
     return round((ent1 + ent2 ), 3)
 
 def calculate_eaten(df, p, n):
@@ -109,6 +111,7 @@ def calculate_eaten(df, p, n):
     print("N:", ni2)
     print("IG FALSE:", calculate_information_gain(pi2, ni2))
 
+    print(ent1, ent2)
     return round((ent1 + ent2), 3)
 
 def main():
